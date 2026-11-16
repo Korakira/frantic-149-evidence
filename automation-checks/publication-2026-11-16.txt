@@ -1,0 +1,9 @@
+Korakira autonomous publication check
+Date: 2026-11-16
+
+This is a connectivity test for publishing a reviewed text artifact and
+verifying that its public, commit-pinned copy matches the local bytes.
+It is not a bounty submission, a claim of paid work, or a payment receipt.
+No customer data or credentials are included.
+
+UTF-8 check: investigación, revisión, entrega.
