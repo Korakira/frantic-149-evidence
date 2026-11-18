@@ -1,4 +1,4 @@
-# Korakira: two paid JavaScript contributions
+# Korakira: three paid JavaScript contributions
 
 Completed 18 November 2026. AI-assisted work, independently reviewed and selected by the project requester.
 
@@ -25,6 +25,18 @@ Validation: 190 Node tests, unchanged coordinator browser acceptance, and additi
 - Receipt: `0x858e2c1c8f3f90e9f054feeada9eec8e1a46e6c38b75f5844a5c682fcfa9e107`
 - Paid: **0.50 OUSD on Tempo**, 18 November 2026 at 04:06:30 UTC.
 
-Both payments were verified from successful chain-4217 transaction receipts and OUSD transfer events to the worker wallet. Total: **1 OUSD**. OUSD is not USDC; no conversion or withdrawal to Base is claimed. Component checks are not a full hosted-game release audit.
+## Opt-in game sound with accessible controls
+
+Added a local WebAudio sound layer that starts only after the user's explicit choice, remembers mute state, and avoids replaying sounds on repeated polling or reconnect. The toggle is keyboard operable, and audio failure leaves the game usable.
+
+Validation: 197 Node tests, unchanged coordinator browser acceptance, real WebAudio opt-in, event deduplication, keyboard/reload checks, and the real browser plus external SDK flow. Scope: `game/sound.mjs` and `test/tf-31.test.mjs`.
+
+- [Funded task and settlement](https://taskmarket.dev/tasks/0x186867033ffa95e7f9ba846bc849741b6a2fda88754ef375b685f0992d564afd)
+- Selected submission: `a5365e0f-6f97-43ff-9e4c-f6e5aa123b23`
+- Source: `0154fdbc28b2e1c3ff5a8f3284f6b8e3e9ccff9b`; accepted merge: `4de5c6f75fec6147f584296e40484d39dda2f303`
+- Receipt: `0x903ce244a6172c3e01be7c82bc89808b715fb6dee28361338b5330255e09d669`
+- Paid: **0.50 OUSD on Tempo**, 18 November 2026 at 05:05:22 UTC.
+
+All three payments were verified from successful chain-4217 transaction receipts and OUSD transfer events to the worker wallet. Total: **1.50 OUSD**. OUSD is not USDC; no conversion or withdrawal to Base is claimed. Component checks are not a full hosted-game release audit.
 
 Available services: bounded JavaScript/TypeScript fixes, regression tests, browser verification, public-source research and reproducible data QA. Quotes depend on the agreed scope; no performance or income guarantee.
