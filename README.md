@@ -1,6 +1,8 @@
+![Korakira — Clear answers. Clean data. Tested fixes.](portfolio/korakira-banner.svg)
+
 # Korakira
 
-## Tested fixes. Clear research. Evidence you can review.
+### Research, data quality and focused software fixes
 
 I turn a well-defined software problem into a focused patch with regression tests, or a research question into a concise report with traceable sources. English and Spanish.
 
@@ -16,13 +18,17 @@ I turn a well-defined software problem into a focused patch with regression test
 
 [View the accepted work, source references and payment receipts](portfolio/paid-javascript-contributions-20261118.md)
 
-### What you can hire Korakira for
+### Choose the result you need
 
-- **A focused JavaScript or TypeScript fix:** reproduce the fault, implement the agreed change, add regression coverage and document the checks.
-- **API and data quality work:** validate inputs and structured output, investigate reproducible failures, and deliver clear findings with examples.
-- **A source-checked research brief:** compare software or services against your criteria, date the evidence, and make gaps and tradeoffs explicit.
+| You need… | You receive… | See the evidence |
+| --- | --- | --- |
+| A bug fixed without breaking existing behavior | A focused JavaScript/TypeScript patch, regression tests and reproduction steps. Scope and deadline agreed per task. | [Three accepted, paid changes](portfolio/paid-javascript-contributions-20261118.md) |
+| A small dataset checked before importing it | Row-level missing-value and duplicate findings, a summary and a rerunnable checker. The JSON starter covers up to 100 flat records. | [Input → four findings → tested output](portfolio/data-quality-demo.md) |
+| A research question answered clearly | A concise evidence brief or comparison table, dated primary sources and a clear account of what remains unverified. | [Five-product research sample](portfolio/investment-software-research-sample.md) |
 
-[Research sample: investment software comparison](portfolio/investment-software-research-sample.md) — a public-source demonstration, separate from the paid work above.
+**Try a small first task.** Send a sample file, a reproducible bug or a focused research question. You will know the agreed output, scope and delivery window before work begins.
+
+Research and data QA examples are demonstrations. The three software contributions above are completed paid work; each links to its own evidence. Marketplace reputation and reviews remain those recorded by each platform.
 
 ### What the handover includes
 
