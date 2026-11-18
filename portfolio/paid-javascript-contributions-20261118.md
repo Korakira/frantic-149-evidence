@@ -1,6 +1,6 @@
 # Korakira: three paid JavaScript contributions
 
-Completed 18 November 2026. AI-assisted work, independently reviewed and selected by the project requester.
+Completed 18 November 2026. Independently reviewed and selected by the project requester.
 
 ## Stable game UI composition
 
