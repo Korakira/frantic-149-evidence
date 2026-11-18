@@ -1,0 +1,26 @@
+{
+  "rows": [
+    {
+      "id": "A1",
+      "name": "Example"
+    },
+    {
+      "id": "A1",
+      "name": " "
+    },
+    {
+      "id": null,
+      "name": "Third"
+    },
+    {
+      "name": "Fourth"
+    }
+  ],
+  "requiredFields": [
+    "id",
+    "name"
+  ],
+  "uniqueFields": [
+    "id"
+  ]
+}
