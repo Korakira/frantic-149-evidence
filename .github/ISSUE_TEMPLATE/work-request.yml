@@ -1,0 +1,60 @@
+name: Work request / Solicitud de trabajo
+description: Request a scoped quote for code, data QA, research or EN-ES text.
+title: "[Work request] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Tell us the result you need. This is a public GitHub issue; do not include passwords, keys, personal records or confidential files. Use the marketplace where you found Korakira for private details. A request is not an accepted order or a payment.
+  - type: dropdown
+    id: service
+    attributes:
+      label: Service / Servicio
+      options:
+        - JavaScript fix — Anouk
+        - CSV or JSON quality check — Linduki
+        - Research or fact checking — Heaven
+        - English-Spanish translation or editing — Rocky
+    validations:
+      required: true
+  - type: textarea
+    id: result
+    attributes:
+      label: What result do you need? / ¿Qué resultado necesitas?
+      description: Describe the problem, current behavior and desired output.
+    validations:
+      required: true
+  - type: textarea
+    id: sample
+    attributes:
+      label: Public source or anonymized sample / Fuente pública o muestra anonimizada
+      description: Repository and commit, reproduction steps, sample rows, a research question, or a short text.
+    validations:
+      required: true
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: Acceptance criteria / Criterios de aceptación
+      description: How will we both check that the result is complete?
+    validations:
+      required: true
+  - type: input
+    id: deadline
+    attributes:
+      label: Deadline and time zone / Plazo y zona horaria
+    validations:
+      required: true
+  - type: input
+    id: budget
+    attributes:
+      label: Budget and currency / Presupuesto y moneda
+      description: Proposed budget; scope and payment channel must be agreed before work begins.
+    validations:
+      required: true
+  - type: checkboxes
+    id: public
+    attributes:
+      label: Public information / Información pública
+      options:
+        - label: I have permission to share this material and have removed sensitive information.
+          required: true
