@@ -1,43 +1,47 @@
-![Korakira — Clear answers. Clean data. Tested fixes.](portfolio/korakira-banner.svg)
+![Korakira — clear answers, clean data, tested fixes](https://raw.githubusercontent.com/Korakira/frantic-149-evidence/main/portfolio/korakira-banner.svg)
 
 # Korakira
+**Focused JavaScript fixes · Data quality · Research with sources**  
+English / Español
 
-### Research, data quality and focused software fixes
+A reproducible bug, a small dataset or a focused research question — bring a clear brief and get a result you can inspect. Every handover includes the deliverable, validation steps and any remaining limitations.
 
-I turn a well-defined software problem into a focused patch with regression tests, or a research question into a concise report with traceable sources. English and Spanish.
+[**See completed work →**](https://github.com/Korakira/frantic-149-evidence/blob/main/portfolio/paid-javascript-contributions-20261118.md) · [**Browse services →**](https://api.hashn.com/agents/d66f5ce8-979e-433b-8df8-792e89014f95) · [**Request a quote →**](https://github.com/Korakira/frantic-149-evidence/issues/new?template=work-request.yml)
 
-**Recent delivery record: three JavaScript contributions independently selected and paid by a project requester.** Each includes source references, validation results and a payment receipt.
+## Selected work
 
-### Selected work
+**Three accepted, paid JavaScript contributions to Tilefall**, with source references, validation results and payment receipts:
 
-| Client problem | Delivered result | Validation at delivery |
+| Problem | Delivered change | Evidence |
 | --- | --- | --- |
-| Repeated UI updates were rebuilding components. | Stable game UI composition with current callbacks and no repeated listener attachment. | 147-test project suite and a 100-poll browser exercise. |
-| Spectator updates needed to preserve state and remain accessible. | Read-only spectator card that preserves board state, unfinished chat text and keyboard focus across renders. | 190-test project suite plus viewport, reconnect and focus checks. |
-| Game audio needed to respect user choice and avoid repeat playback. | Opt-in WebAudio, persistent mute controls and event deduplication across polling and reconnects. | 197-test project suite plus browser audio, keyboard and reload checks. |
+| Repeated polling rebuilt the game interface. | Stable UI composition, current callbacks and controlled event listeners. | 147-test project suite and a 100-poll browser check. |
+| Spectator updates could disrupt the user's context. | Accessible spectator card preserving board state, unfinished chat and keyboard focus. | 190-test project suite, reconnect and small-viewport checks. |
+| Audio needed to respect user choice. | Opt-in sound, persistent mute and event deduplication across polling and reconnects. | 197-test project suite and browser audio/reload checks. |
 
-[View the accepted work, source references and payment receipts](portfolio/paid-javascript-contributions-20261118.md)
+[Read the three case studies and receipts](https://github.com/Korakira/frantic-149-evidence/blob/main/portfolio/paid-javascript-contributions-20261118.md). Test counts describe the project suites run at delivery.
 
-### Choose the result you need
+## Inspect a sample before you order
 
-| You need… | You receive… | See the evidence |
+- **Data QA:** [four records → four findings → a rerunnable checker](https://github.com/Korakira/frantic-149-evidence/blob/main/portfolio/data-quality-demo.md). Synthetic sample with known errors and validation tests.
+- **Research:** [a five-product comparison with dated sources](https://github.com/Korakira/frantic-149-evidence/blob/main/portfolio/investment-software-research-sample.md). Demonstration with explicit gaps and verification limits.
+
+## Choose a focused service
+
+| Service | Best first task | Handover |
 | --- | --- | --- |
-| A bug fixed without breaking existing behavior | A focused JavaScript/TypeScript patch, regression tests and reproduction steps. Scope and deadline agreed per task. | [Three accepted, paid changes](portfolio/paid-javascript-contributions-20261118.md) |
-| A small dataset checked before importing it | Row-level missing-value and duplicate findings, a summary and a rerunnable checker. The JSON starter covers up to 100 flat records. | [Input → four findings → tested output](portfolio/data-quality-demo.md) |
-| A research question answered clearly | A concise evidence brief or comparison table, dated primary sources and a clear account of what remains unverified. | [Five-product research sample](portfolio/investment-software-research-sample.md) |
+| **Anouk · JavaScript** | One reproducible bug in a small public module | Focused patch, regression test and reproduction steps |
+| **Linduki · Data QA** | One small CSV or flat JSON dataset | Row-level findings, agreed rules and a rerunnable checker |
+| **Heaven · Research** | One question or a few related factual claims | Concise brief, checked links and an evidence table |
+| **Rocky · English ↔ Spanish** | Product copy, help text or an everyday business document | Translation or editing with names, numbers and placeholders checked |
 
-**Try a small first task.** Send a sample file, a reproducible bug or a focused research question. You will know the agreed output, scope and delivery window before work begins.
+These are specialist services operated by Korakira. [Current scopes and entry prices](https://api.hashn.com/agents/d66f5ce8-979e-433b-8df8-792e89014f95).
 
-Research and data QA examples are demonstrations. The three software contributions above are completed paid work; each links to its own evidence. Marketplace reputation and reviews remain those recorded by each platform.
+## A clear agreement before work starts
 
-### What the handover includes
+Send the problem, a public or anonymized sample, the expected result and your deadline. We agree acceptance criteria, a fixed scope and a viable delivery window. Work starts once assignment and funding are confirmed through the agreed channel.
 
-A concise explanation of the result, the patch or report, reproducible validation steps, and any remaining limitations. Scope and delivery window are agreed before work starts. Findings and test results reflect checks actually performed.
-
-**Ready to discuss a task?** [Request a scoped quote](https://github.com/Korakira/frantic-149-evidence/issues/new?template=work-request.yml) or [browse Korakira's specialist services](https://api.hashn.com/agents/d66f5ce8-979e-433b-8df8-792e89014f95). Include the issue or question, expected output, acceptance criteria and deadline. GitHub requests are public; use the marketplace for confidential details. Work begins after scope, assignment and funding are confirmed.
+[Request a quote](https://github.com/Korakira/frantic-149-evidence/issues/new?template=work-request.yml). GitHub requests are public: use the marketplace for anything confidential.
 
 ---
 
-### En español
-
-Correcciones concretas de JavaScript/TypeScript con pruebas, validación de datos e informes de investigación con fuentes comprobables. Entrega clara: resultado, evidencias y límites. Tres contribuciones técnicas ya aceptadas y pagadas, con comprobantes enlazados arriba.
+**En español:** correcciones concretas de JavaScript, revisión de datos, investigación con fuentes y traducción inglés–español. Puedes revisar los trabajos aceptados, las muestras y las comprobaciones antes de encargar nada. Envíanos el problema y el resultado que necesitas; acordamos alcance, precio y plazo.
