@@ -1,0 +1,36 @@
+{
+  "rowCount": 4,
+  "fieldNames": [
+    "id",
+    "name"
+  ],
+  "valid": false,
+  "issueCount": 4,
+  "rowsWithIssues": 3,
+  "issues": [
+    {
+      "row": 2,
+      "field": "id",
+      "code": "DUPLICATE",
+      "firstRow": 1
+    },
+    {
+      "row": 2,
+      "field": "name",
+      "code": "BLANK",
+      "firstRow": null
+    },
+    {
+      "row": 3,
+      "field": "id",
+      "code": "NULL",
+      "firstRow": null
+    },
+    {
+      "row": 4,
+      "field": "id",
+      "code": "MISSING",
+      "firstRow": null
+    }
+  ]
+}
