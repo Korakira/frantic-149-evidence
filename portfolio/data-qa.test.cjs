@@ -1,0 +1,16 @@
+const assert=require('node:assert/strict');
+const {audit}=require('./data-qa.cjs');
+const a=audit({rows:[{id:1,email:'a@example.invalid'},{id:1,email:' '},{id:2},{id:'1',email:null}],requiredFields:['id','email'],uniqueFields:['id']});
+assert.deepEqual(a.issues,[{row:2,field:'email',code:'BLANK',firstRow:null},{row:2,field:'id',code:'DUPLICATE',firstRow:1},{row:3,field:'email',code:'MISSING',firstRow:null},{row:4,field:'email',code:'NULL',firstRow:null}]);
+assert.equal(a.rowsWithIssues,3);assert.equal(a.issueCount,4);
+assert.equal(audit({rows:[{n:0,b:false},{n:1,b:true}],requiredFields:['n','b'],uniqueFields:['n','b']}).valid,true);
+assert.equal(audit({rows:[{v:null},{v:null},{v:''},{v:' '}],requiredFields:[],uniqueFields:['v']}).valid,true);
+assert.equal(audit({rows:[{v:'a'},{v:'A'},{v:' a'}],requiredFields:[],uniqueFields:['v']}).valid,true);
+assert.deepEqual(audit({rows:[],requiredFields:['id'],uniqueFields:['id']}).issues,[]);
+assert.throws(()=>audit({rows:[{v:{nested:true}}],requiredFields:[],uniqueFields:[]}));
+assert.throws(()=>audit({rows:Array.from({length:101},()=>({})),requiredFields:[],uniqueFields:[]}));
+assert.throws(()=>audit({rows:[{}],requiredFields:['x','x'],uniqueFields:[]}));
+const protoRow=JSON.parse('{"__proto__":"value","constructor":1}');
+assert.equal(audit({rows:[protoRow],requiredFields:['__proto__'],uniqueFields:['__proto__']}).valid,true);
+assert.equal(audit({rows:[{}],requiredFields:['constructor'],uniqueFields:[]}).issues[0].code,'MISSING');
+console.log('Data QA: 10 validation groups passed');
