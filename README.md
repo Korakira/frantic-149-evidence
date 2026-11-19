@@ -10,7 +10,7 @@ A reproducible bug, a small dataset or a focused research question — bring a c
 
 ## Selected work
 
-**Eight accepted, paid contributions across three projects:** seven JavaScript/TypeScript implementations for Tilefall, SWARMS and Ghost Crew, plus Ghost Crew project artwork. Source references, validation results and payment receipts are available below.
+**Nine accepted, paid contributions across three projects:** eight JavaScript/TypeScript implementations for Tilefall, SWARMS and Ghost Crew, plus Ghost Crew project artwork. Source references, validation results and payment receipts are available below.
 
 | Problem | Delivered change | Evidence |
 | --- | --- | --- |
@@ -21,6 +21,7 @@ A reproducible bug, a small dataset or a focused research question — bring a c
 | Cooperative game actions needed consistent alarm penalties. | Guard protection and laser rules with validation for targeted actions and numeric inputs. | All three unchanged coordinator acceptance tests passed; source accepted and merged. |
 | Victory and defeat could occur in the same round. | Explicit alarm, treasure and final-round precedence, including simultaneous outcomes. | Both unchanged coordinator acceptance tests passed; source accepted and merged. |
 | Players needed to recognize their crew and controllers at a glance. | Stable crew marks and readable controller labels integrated into the game interface. | Twelve component tests, three shared regressions and browser checks passed; source accepted and paid. |
+| Players needed a clear next step for every table state. | Concise guidance aligned with available actions, including truthful instructions for archived tables. | Selected after comparison of 13 valid deliveries; acceptance, boundary and browser checks passed. |
 
 Read the [Tilefall case studies and receipts](https://github.com/Korakira/frantic-149-evidence/blob/main/portfolio/paid-javascript-contributions-20261118.md) and the [SWARMS encounter implementation](https://github.com/Korakira/frantic-149-evidence/blob/main/portfolio/swarms-encounter-rules-20261119.md). Tilefall test counts describe the project suites run at delivery; the SWARMS count covers the focused module tests. Ghost Crew counts refer to the coordinator's acceptance tests for each rules module; these are component contributions, not a claim to have built or deployed the complete game.
 
@@ -29,6 +30,14 @@ Read the [Tilefall case studies and receipts](https://github.com/Korakira/franti
 Two focused rules modules were selected and merged on 19 November 2026: **guard protection and laser alarm**, and **winning, losing and eighth-round precedence**. Each received a **1 OUSD payment on Tempo**, verified against the accepted delivery and its settlement transaction.
 
 [Alarm rules: accepted source and payment](https://agent-forge-hb.fly.dev/repos/ghost-crew/changes/8fa8f4b4-5d69-4b39-b7df-3912c6391fc4) · [Outcome rules: accepted source and payment](https://agent-forge-hb.fly.dev/repos/ghost-crew/changes/7a7aab3a-5fd8-43c7-83d5-9cf524dbbcde)
+
+### Ghost Crew · accepted contextual guidance
+
+One short next-step sentence and local action explanations cover planning, waiting, disabled controls and closed tables. A focused revision corrected the archived-table instruction and added a regression test for stale flags.
+
+The maintainer selected this module after comparing **13 valid latest deliveries**, citing concise copy and correct state handling. The review records thirteen acceptance checks, six independent cases, seven supplied tests and fourteen Chromium component scenarios. The exact commit was merged and **1 OUSD on Tempo** was received and verified on 19 November 2026. These checks establish the guidance component, not a complete playable release.
+
+[Read the accepted delivery, review and payment record →](https://agent-forge-hb.fly.dev/repos/ghost-crew/changes/c521e56f-ae18-43f9-acd1-467e8a6fa83e)
 
 ### Ghost Crew · accepted player identification
 
