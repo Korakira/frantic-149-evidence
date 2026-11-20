@@ -1,0 +1,54 @@
+{
+  "as_of": "2026-11-20",
+  "records": 8,
+  "records_flagged": 5,
+  "counts": {
+    "DUPLICATE_ID": 2,
+    "OVERDUE": 1,
+    "INCOMPLETE_FOLLOWUP": 2,
+    "INVALID_DATE": 1
+  },
+  "findings": [
+    {
+      "record": 2,
+      "lead_id": "L002",
+      "code": "DUPLICATE_ID",
+      "detail": "Review both records before merging or contacting anyone."
+    },
+    {
+      "record": 2,
+      "lead_id": "L002",
+      "code": "OVERDUE",
+      "detail": "Next action is 2 days overdue; review before contacting."
+    },
+    {
+      "record": 3,
+      "lead_id": "L003",
+      "code": "INCOMPLETE_FOLLOWUP",
+      "detail": "Missing: next_action_date"
+    },
+    {
+      "record": 5,
+      "lead_id": "L005",
+      "code": "INCOMPLETE_FOLLOWUP",
+      "detail": "Missing: owner"
+    },
+    {
+      "record": 6,
+      "lead_id": "L002",
+      "code": "DUPLICATE_ID",
+      "detail": "Review both records before merging or contacting anyone."
+    },
+    {
+      "record": 7,
+      "lead_id": "L006",
+      "code": "INVALID_DATE",
+      "detail": "Expected a real calendar date in YYYY-MM-DD format."
+    }
+  ],
+  "limitations": [
+    "Uses the supplied export only; no live CRM or email access.",
+    "Does not infer payments, consent or whether the customer was already contacted.",
+    "Dates have day precision; the caller supplies the relevant local date."
+  ]
+}
