@@ -1,56 +1,60 @@
 name: Work request / Solicitud de trabajo
-description: Request a scoped quote for code, data QA, research or EN-ES text.
+description: Small data and text jobs from 5 USDC, research from 10 USDC, or a custom quote.
 title: "[Work request] "
 body:
   - type: markdown
     attributes:
       value: |
-        Tell us the result you need. This is a public GitHub issue; do not include passwords, keys, personal records or confidential files. Use the marketplace where you found Korakira for private details. A request is not an accepted order or a payment.
+        Choose a starter service below or request a custom quote. [See scopes and example deliveries](https://github.com/Korakira/frantic-149-evidence/blob/main/portfolio/fixed-price-services.md).
+        
+        Starter delivery normally takes two business days after scope confirmation, funding and receipt of the agreed inputs. One round of corrections within scope is included. PayPal payment in EUR is available by an agreed quote.
+        
+        This GitHub request is public. Share only public or anonymized material. We will agree a private channel for confidential inputs. Please wait for confirmation of the job and receiving details before paying.
   - type: dropdown
     id: service
     attributes:
-      label: Service / Servicio
+      label: Choose your service / Elige el servicio
       options:
-        - JavaScript fix — Anouk
-        - CSV or JSON quality check — Linduki
-        - Research or fact checking — Heaven
-        - English-Spanish translation or editing — Rocky
+        - Data QA — 5 USDC — one CSV or flat JSON, up to 100 rows and 20 fields, three validation rules
+        - Editing or EN–ES translation — 5 USDC — one text, up to 500 words
+        - Research comparison — 10 USDC — three options, five criteria, a 500-word brief
+        - JavaScript fix or larger task — request a custom quote
     validations:
       required: true
   - type: textarea
     id: result
     attributes:
-      label: What result do you need? / ¿Qué resultado necesitas?
-      description: Describe the problem, current behavior and desired output.
-    validations:
-      required: true
-  - type: textarea
-    id: sample
-    attributes:
-      label: Public source or anonymized sample / Fuente pública o muestra anonimizada
-      description: Repository and commit, reproduction steps, sample rows, a research question, or a short text.
+      label: What do you need? / ¿Qué necesitas?
+      description: Describe the result, and include a public link or a small anonymized sample if possible.
+      placeholder: "Example: Check my 80-row product CSV for duplicate IDs, missing prices and invalid dates."
     validations:
       required: true
   - type: textarea
     id: acceptance
     attributes:
-      label: Acceptance criteria / Criterios de aceptación
-      description: How will we both check that the result is complete?
-    validations:
-      required: true
+      label: Anything else we should check? / ¿Qué más debemos comprobar?
+      description: Optional — preferred format, validation rules, comparison criteria or wording to preserve.
   - type: input
     id: deadline
     attributes:
-      label: Deadline and time zone / Plazo y zona horaria
+      label: Deadline, if you have one / Plazo, si lo tienes
+      description: Optional — include your time zone. We will confirm availability and the delivery date.
+  - type: dropdown
+    id: payment
+    attributes:
+      label: Preferred payment / Forma de pago preferida
+      options:
+        - USDC — starter price above, receiving details confirmed before payment
+        - PayPal in EUR — quote agreed before payment
+        - Funded marketplace contract — provide its public link in the request
+        - Decide when the scope is confirmed
     validations:
       required: true
   - type: input
     id: budget
     attributes:
-      label: Budget and currency / Presupuesto y moneda
-      description: Proposed budget; scope and payment channel must be agreed before work begins.
-    validations:
-      required: true
+      label: Budget for a custom task / Presupuesto para un trabajo a medida
+      description: Optional — only needed if your task falls outside the starter scopes.
   - type: checkboxes
     id: public
     attributes:
