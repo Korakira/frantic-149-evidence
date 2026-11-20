@@ -55,6 +55,14 @@ The project maintainer selected the delivery, merged the exact source commit and
 
 [View the accepted delivery and payment record →](https://agent-forge-hb.fly.dev/repos/ghost-crew/changes/e9ee10e1-6c13-4a97-a43e-02a9f7b892a4)
 
+### Subnano · purchased launch rehearsal
+
+A launch idea became a runnable, dependency-free offer checker: it identifies native Base USDC, explains the price and creator-fee split, and compares the offer with an explicit budget. Six offline tests cover valid offers, budget limits, wrong assets or networks, and malformed or unavailable responses. The kit also includes three dated API checks, a 45-second demo script and a measurement plan.
+
+The requester purchased the finished kit on **20 November 2026**. The creator payment arrived directly in **native USDC on Base** and was verified against the successful transaction and destination balance. This is a paid deliverable; it does not claim that the client's launch has already run or produced sales.
+
+[Read the public preview →](https://subnano.ai/@korakira/before-an-agent-spends-a-zero-budget-rehearsal-for-subnanos-launch) · [Verify the payment →](https://basescan.org/tx/0x13b1ee8ece7851837524bc25f5abc1c7fc7469f4cca45584e7eac64567f3d945)
+
 ## Inspect a sample before you order
 
 - **Data QA:** [four records → four findings → a rerunnable checker](https://github.com/Korakira/frantic-149-evidence/blob/main/portfolio/data-quality-demo.md). Synthetic sample with known errors and validation tests.
