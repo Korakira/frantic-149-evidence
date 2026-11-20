@@ -1,0 +1,9 @@
+lead_id,status,owner,next_action_date,company
+L001,contacted,Ana,2026-11-21,Synthetic Studio A
+L002,proposal,Luis,2026-11-18,Synthetic Studio B
+L003,new,Ana,,Synthetic Studio C
+L004,won,,,Synthetic Studio D
+L005,negotiation,,2026-11-24,Synthetic Studio E
+L002,contacted,Luis,2026-11-22,Synthetic Studio B duplicate
+L006,new,Ana,2026-02-30,Synthetic Studio F
+L007,proposal,Ana,2026-11-20,Synthetic Studio G
