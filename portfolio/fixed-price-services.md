@@ -20,6 +20,12 @@ Prices are for these starter scopes. **PayPal payment in EUR is also available b
 
 The sample is synthetic and labelled as such. It shows the output format before you order. Source files are preserved; missing information is flagged, not guessed.
 
+### Customer follow-up: see which records need attention
+
+[Eight synthetic leads, five records to review, six specific findings →](lead-follow-up/README.md)
+
+See duplicate IDs, missing owners or dates, and overdue actions. The original checker includes six tests and keeps working when columns are reordered.
+
 ### Research: inspect the evidence format
 
 [Example product comparison with dated links and explicit gaps →](investment-software-research-sample.md)
