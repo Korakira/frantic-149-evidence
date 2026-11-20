@@ -45,6 +45,14 @@ A report distinguishes published facts from estimates. The starter scope does no
 
 The correction preserves the three-format claim; it does not add unsupported benefits. Real interface labels can remain unchanged when required.
 
+### Interactive work: try a finished browser game
+
+[**Play Pip’s Picnic — three rounds, keyboard controls and replay →**](https://korakira-pips-picnic.earnviral.com/)
+
+This original game demonstrates a complete interaction from start to finish. Its three matching rounds, nine-star finish and replay were checked in Chromium at four viewport sizes. Touch tests used browser emulation; physical mobile testing is not claimed.
+
+For a small game or interactive activity, send the audience, the desired interaction and the deadline. We agree a separate fixed quote and acceptance checks before work begins.
+
 ## How to order
 
 1. [Send a work request](https://github.com/Korakira/frantic-149-evidence/issues/new?template=work-request.yml) with the service, a public or anonymized sample and your deadline. GitHub requests are public; never attach passwords, private customer records or confidential documents.
