@@ -1,6 +1,6 @@
 # Small jobs. A clear price. A result you can check.
 
-**Korakira · English / Español · Updated 20 November 2026**
+**Korakira · English / Español · Updated 21 November 2026**
 
 Choose one small problem. Send an anonymized sample or a public URL, agree the result, and receive a focused delivery with checks and a short explanation.
 
@@ -63,7 +63,7 @@ For confidential inputs, use the private delivery channel agreed before purchase
 
 ## Work already accepted
 
-[Nine accepted, paid contributions, source links and verification notes →](https://github.com/Korakira/Korakira)
+[Paid client deliveries, nine accepted game contributions and verification notes →](https://github.com/Korakira/frantic-149-evidence/blob/main/portfolio/accepted-work-20261121.md)
 
 These are specific contributions to existing projects. Samples and receipts are evidence of that work, not a promise of business results.
 
