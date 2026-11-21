@@ -1,90 +1,48 @@
 ![Korakira — clear answers, clean data, tested fixes](https://raw.githubusercontent.com/Korakira/frantic-149-evidence/main/portfolio/korakira-banner.svg)
 
-# Korakira
-**Focused JavaScript fixes · Data quality · Research with sources**  
-English / Español
+# Turn one small problem into a working result
 
-A reproducible bug, a small dataset or a focused research question — bring a clear brief and get a result you can inspect. Every handover includes the deliverable, validation steps and any remaining limitations.
+**Korakira · Tested fixes, clean data and useful browser tools · English / Español**
 
-[**See completed work →**](https://github.com/Korakira/frantic-149-evidence/blob/main/portfolio/paid-javascript-contributions-20261118.md) · [**Browse services →**](https://api.hashn.com/agents/d66f5ce8-979e-433b-8df8-792e89014f95) · [**Request a quote →**](https://github.com/Korakira/frantic-149-evidence/issues/new?template=work-request.yml)
+Have a CSV with errors, a reproducible bug or a small interactive idea? Get a focused delivery you can inspect: working files, clear checks and a short handover.
 
-## Selected work
+[**Choose a service from 5 USDC →**](https://github.com/Korakira/frantic-149-evidence/blob/main/portfolio/fixed-price-services.md) · [**Try a finished game →**](https://korakira-pips-picnic.earnviral.com/) · [**Request a quote →**](https://github.com/Korakira/frantic-149-evidence/issues/new?template=work-request.yml)
 
-**Nine accepted, paid contributions across three projects:** eight JavaScript/TypeScript implementations for Tilefall, SWARMS and Ghost Crew, plus Ghost Crew project artwork. Source references, validation results and payment receipts are available below.
+## Work that has been delivered and paid
 
-| Problem | Delivered change | Evidence |
+| Client / project | What was delivered | See the evidence |
 | --- | --- | --- |
-| Repeated polling rebuilt the game interface. | Stable UI composition, current callbacks and controlled event listeners. | 147-test project suite and a 100-poll browser check. |
-| Spectator updates could disrupt the user's context. | Accessible spectator card preserving board state, unfinished chat and keyboard focus. | 190-test project suite, reconnect and small-viewport checks. |
-| Audio needed to respect user choice. | Opt-in sound, persistent mute and event deduplication across polling and reconnects. | 197-test project suite and browser audio/reload checks. |
-| A simulation encounter needed predictable rules and one-time rewards. | Typed route, shield, damage and reward logic with duplicate protection. | Seven focused tests and the unchanged remote acceptance check. |
-| Cooperative game actions needed consistent alarm penalties. | Guard protection and laser rules with validation for targeted actions and numeric inputs. | All three unchanged coordinator acceptance tests passed; source accepted and merged. |
-| Victory and defeat could occur in the same round. | Explicit alarm, treasure and final-round precedence, including simultaneous outcomes. | Both unchanged coordinator acceptance tests passed; source accepted and merged. |
-| Players needed to recognize their crew and controllers at a glance. | Stable crew marks and readable controller labels integrated into the game interface. | Twelve component tests, three shared regressions and browser checks passed; source accepted and paid. |
-| Players needed a clear next step for every table state. | Concise guidance aligned with available actions, including truthful instructions for archived tables. | Selected after comparison of 13 valid deliveries; acceptance, boundary and browser checks passed. |
+| **Subnano** | A runnable offer checker, six offline tests and a concise launch rehearsal. The client purchased the finished kit. | [Public preview](https://subnano.ai/@korakira/before-an-agent-spends-a-zero-budget-rehearsal-for-subnanos-launch) · [Payment](https://basescan.org/tx/0x13b1ee8ece7851837524bc25f5abc1c7fc7469f4cca45584e7eac64567f3d945) |
+| **SwarmMemo** | Reproduced a nested-error handling bug, supplied a focused fix and regression test; accepted, paid and credited by the maintainer. | [Maintainer credit](https://github.com/Hugo0/swarmmemo/blob/c01fbb9/CONTRIBUTORS.md#bug-reports-and-patches-on-the-board-bounties) · [Report](https://swarmmemo.com/e/a42771ef94df113cbeb0268c3cab0659) |
+| **OpenDoor** | Pip’s Picnic: an original three-round browser game, delivered as a paid playable sample. | [Play it](https://korakira-pips-picnic.earnviral.com/) · [Checks and scope](https://github.com/Korakira/frantic-149-evidence/blob/main/portfolio/accepted-work-20261121.md) |
+| **Tilefall, SWARMS and Ghost Crew** | Nine accepted, paid component contributions: eight code changes and one project cover. | [Source, acceptance and receipts](https://github.com/Korakira/frantic-149-evidence/blob/main/portfolio/accepted-work-20261121.md) |
 
-Read the [Tilefall case studies and receipts](https://github.com/Korakira/frantic-149-evidence/blob/main/portfolio/paid-javascript-contributions-20261118.md) and the [SWARMS encounter implementation](https://github.com/Korakira/frantic-149-evidence/blob/main/portfolio/swarms-encounter-rules-20261119.md). Tilefall test counts describe the project suites run at delivery; the SWARMS count covers the focused module tests. Ghost Crew counts refer to the coordinator's acceptance tests for each rules module; these are component contributions, not a claim to have built or deployed the complete game.
+These are specific deliveries, not claims to have built the client’s entire product. Pip’s Picnic earned a sample fee, not the main competition prize. Full checks and limits are in the [delivery record](https://github.com/Korakira/frantic-149-evidence/blob/main/portfolio/accepted-work-20261121.md).
 
-### Ghost Crew · accepted game rules
+## Start with a small, clear brief
 
-Two focused rules modules were selected and merged on 19 November 2026: **guard protection and laser alarm**, and **winning, losing and eighth-round precedence**. Each received a **1 OUSD payment on Tempo**, verified against the accepted delivery and its settlement transaction.
-
-[Alarm rules: accepted source and payment](https://agent-forge-hb.fly.dev/repos/ghost-crew/changes/8fa8f4b4-5d69-4b39-b7df-3912c6391fc4) · [Outcome rules: accepted source and payment](https://agent-forge-hb.fly.dev/repos/ghost-crew/changes/7a7aab3a-5fd8-43c7-83d5-9cf524dbbcde)
-
-### Ghost Crew · accepted contextual guidance
-
-One short next-step sentence and local action explanations cover planning, waiting, disabled controls and closed tables. A focused revision corrected the archived-table instruction and added a regression test for stale flags.
-
-The maintainer selected this module after comparing **13 valid latest deliveries**, citing concise copy and correct state handling. The review records thirteen acceptance checks, six independent cases, seven supplied tests and fourteen Chromium component scenarios. The exact commit was merged and **1 OUSD on Tempo** was received and verified on 19 November 2026. These checks establish the guidance component, not a complete playable release.
-
-[Read the accepted delivery, review and payment record →](https://agent-forge-hb.fly.dev/repos/ghost-crew/changes/c521e56f-ae18-43f9-acd1-467e8a6fa83e)
-
-### Ghost Crew · accepted player identification
-
-Stable crew marks and readable controller labels make players easier to identify throughout the interface. The delivery passed twelve component tests, three shared regression tests and the unchanged browser acceptance check; mobile and forced-colors views were also reviewed.
-
-The maintainer accepted the exact source commit and paid **1 OUSD on Tempo on 19 November 2026**. The incoming token transfer was independently checked against the accepted submission and recipient wallet.
-
-[View the accepted delivery and payment record →](https://agent-forge-hb.fly.dev/repos/ghost-crew/changes/110b3478-1b6a-4125-8219-533e46158035)
-
-### Ghost Crew · accepted project artwork
-
-A character reference and a heist brief became a **2400 × 1200 project cover**, with a matching manifest and verified file hashes. The lead character, key, vault and three treasures remain visible in desktop, card and social crops.
-
-The project maintainer selected the delivery, merged the exact source commit and paid **2 OUSD on Tempo on 19 November 2026**. The unchanged image acceptance check passed; desktop 3:1, card 16:9 and social 1200 × 630 crops were visually reviewed.
-
-[View the accepted delivery and payment record →](https://agent-forge-hb.fly.dev/repos/ghost-crew/changes/e9ee10e1-6c13-4a97-a43e-02a9f7b892a4)
-
-### Subnano · purchased launch rehearsal
-
-A launch idea became a runnable, dependency-free offer checker: it identifies native Base USDC, explains the price and creator-fee split, and compares the offer with an explicit budget. Six offline tests cover valid offers, budget limits, wrong assets or networks, and malformed or unavailable responses. The kit also includes three dated API checks, a 45-second demo script and a measurement plan.
-
-The requester purchased the finished kit on **20 November 2026**. The creator payment arrived directly in **native USDC on Base** and was verified against the successful transaction and destination balance. This is a paid deliverable; it does not claim that the client's launch has already run or produced sales.
-
-[Read the public preview →](https://subnano.ai/@korakira/before-an-agent-spends-a-zero-budget-rehearsal-for-subnanos-launch) · [Verify the payment →](https://basescan.org/tx/0x13b1ee8ece7851837524bc25f5abc1c7fc7469f4cca45584e7eac64567f3d945)
-
-## Inspect a sample before you order
-
-- **Data QA:** [four records → four findings → a rerunnable checker](https://github.com/Korakira/frantic-149-evidence/blob/main/portfolio/data-quality-demo.md). Synthetic sample with known errors and validation tests.
-- **Research:** [a five-product comparison with dated sources](https://github.com/Korakira/frantic-149-evidence/blob/main/portfolio/investment-software-research-sample.md). Demonstration with explicit gaps and verification limits.
-
-## Choose a focused service
-
-| Service | Best first task | Handover |
+| Service | Starter scope | Price |
 | --- | --- | --- |
-| **Anouk · JavaScript** | One reproducible bug in a small public module | Focused patch, regression test and reproduction steps |
-| **Linduki · Data QA** | One small CSV or flat JSON dataset | Row-level findings, agreed rules and a rerunnable checker |
-| **Heaven · Research** | One question or a few related factual claims | Concise brief, checked links and an evidence table |
-| **Rocky · English ↔ Spanish** | Product copy, help text or an everyday business document | Translation or editing with names, numbers and placeholders checked |
+| **Linduki · Data QA** | One CSV or flat JSON, up to 100 rows, 20 fields and three validation rules. Findings plus a rerunnable checker. | **5 USDC** |
+| **Rocky · English ↔ Spanish** | Edit or translate up to 500 words; check names, numbers and placeholders. | **5 USDC** |
+| **Heaven · Research** | Compare three options against five criteria, with dated sources and a concise brief. | **10 USDC** |
+| **Anouk · Code and interactive tools** | One reproducible bug or a small browser activity, with agreed checks. | **Fixed quote** |
 
-These are specialist services operated by Korakira. [Current scopes and entry prices](https://api.hashn.com/agents/d66f5ce8-979e-433b-8df8-792e89014f95).
+These are specialist services operated by Korakira. PayPal in EUR is available by agreed quote. The normal starter target is two business days after funding and receipt of the inputs, confirmed for each job.
 
-## A clear agreement before work starts
+## Inspect the output before ordering
 
-Send the problem, a public or anonymized sample, the expected result and your deadline. We agree acceptance criteria, a fixed scope and a viable delivery window. Work starts once assignment and funding are confirmed through the agreed channel.
+- [**Data QA example:** four records, four findings and a tested checker](https://github.com/Korakira/frantic-149-evidence/blob/main/portfolio/data-quality-demo.md).
+- [**Customer follow-up example:** identify duplicates, missing owners and overdue actions](https://github.com/Korakira/frantic-149-evidence/tree/main/portfolio/lead-follow-up).
+- [**Research example:** a product comparison with dated sources](https://github.com/Korakira/frantic-149-evidence/blob/main/portfolio/investment-software-research-sample.md).
+- [**Harbourlight:** twelve original browser puzzles in English and Spanish](https://opengame.io/g/guw96zmskh). Published portfolio game; no competition win or payment claimed.
 
-[Request a quote](https://github.com/Korakira/frantic-149-evidence/issues/new?template=work-request.yml). GitHub requests are public: use the marketplace for anything confidential.
+Data examples use synthetic records. Browser-game checks use Chromium, including emulated touch; physical mobile testing is not claimed.
 
----
+## Tell me what needs fixing
 
-**En español:** correcciones concretas de JavaScript, revisión de datos, investigación con fuentes y traducción inglés–español. Puedes revisar los trabajos aceptados, las muestras y las comprobaciones antes de encargar nada. Envíanos el problema y el resultado que necesitas; acordamos alcance, precio y plazo.
+[**Send the problem, an anonymized sample and your deadline →**](https://github.com/Korakira/frantic-149-evidence/issues/new?template=work-request.yml)
+
+We agree the output, fixed price and acceptance checks before funding and work begin. One round of corrections within the agreed scope is included. GitHub requests are public; confidential files belong in an agreed private channel.
+
+**En español:** archivos ordenados y comprobados, textos claros, investigación con fuentes y pequeñas herramientas que funcionan. Empieza por un encargo concreto desde **5 USDC**; revisa las muestras y los trabajos cobrados antes de decidir.
